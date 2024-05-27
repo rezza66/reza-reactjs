@@ -5,8 +5,8 @@ import HeaderImg from '../assets/images/reza_updated.jpg';
 export default class Header extends Component {
   render() {
     return (
-      <header className='pt-5 mb-5' id='header'>
-        <div className="container py-lg-5 mt-5">
+      <header className='mb-5' id='header'>
+        <div className="container py-lg-5 mt-3">
             <div className="row mt-5">
                 <div className="col-md-6 dflex flex-column align-items-start justify-content-center mt-5 mt-md-0">
                     <h3 className='text-start text-secondary fw-bold lh-1'>Reza Pratama</h3>
