@@ -1,10 +1,10 @@
-import './App.css';
-import Komponen from './Materi/komponen';
+import Index from "./Materi/Styling";
+import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <Komponen />
+      <Index />
     </div>
   );
 }
