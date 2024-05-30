@@ -1,12 +1,20 @@
-import Index from "./Materi/Styling";
-import './App.css'
+import React from 'react';
+import NavigationBar from './components/NavigationBar';
+import Header from './components/Header';
+import AboutSection from './components/AboutSection';
+import ProjectSection from './components/ProjectSection';
+import ContactSection from './components/ContactSection';
+import Footer from './components/Footer';
 
-function App() {
+export default function index() {
   return (
-    <div className="App">
-      <Index />
+    <div className='App'>
+      <NavigationBar />
+      <Header />
+      <AboutSection />
+      <ProjectSection />
+      <ContactSection />
+      <Footer />
     </div>
-  );
+  )
 }
-
-export default App;
